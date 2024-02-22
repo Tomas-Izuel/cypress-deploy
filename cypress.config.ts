@@ -1,9 +1,10 @@
 import { defineConfig } from "cypress";
 
-export default defineConfig({
+module.exports = {
+  projectId: "rytvur",
   e2e: {
-    setupNodeEvents(on, config) {
+    setupNodeEvents(on: any, config: any) {
       // implement node event listeners here
     },
   },
-});
+};
